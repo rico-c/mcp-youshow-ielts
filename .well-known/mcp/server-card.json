@@ -1,0 +1,36 @@
+{
+  "serverInfo": {
+    "name": "youshow-ielts",
+    "title": "Youshow IELTS",
+    "version": "1.0.0"
+  },
+  "transport": {
+    "type": "streamable-http",
+    "url": "https://ielts.youshowedu.com/api/mcp"
+  },
+  "capabilities": {
+    "tools": {}
+  },
+  "authentication": {
+    "required": false
+  },
+  "instructions": "Read-only MCP server for IELTS Writing Task 2 sample answers, Speaking Part 2 cue card topics and Writing band descriptors. No API key required.",
+  "tools": [
+    {
+      "name": "list_writing_samples",
+      "description": "List public IELTS Writing Task 2 sample answers with prompts, source papers, reference bands, word counts and previews."
+    },
+    {
+      "name": "get_writing_sample",
+      "description": "Read one public IELTS Writing Task 2 model essay in full by sample ID."
+    },
+    {
+      "name": "list_cue_cards",
+      "description": "List public IELTS Speaking Part 2 cue card topics with prompts, points to cover and related Part 3 questions."
+    },
+    {
+      "name": "get_band_descriptors",
+      "description": "Get the four IELTS Writing assessment criteria and plain-language Band 5 to Band 8 summaries."
+    }
+  ]
+}

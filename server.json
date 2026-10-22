@@ -1,0 +1,16 @@
+{
+  "name": "io.github.rico-c/youshow-ielts",
+  "description": "Read-only MCP server for IELTS Writing Task 2 sample answers, Speaking Part 2 cue card topics and Writing band descriptors. No API key required.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/rico-c/mcp-youshow-ielts",
+    "source": "github"
+  },
+  "packages": [],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ielts.youshowedu.com/api/mcp"
+    }
+  ]
+}
